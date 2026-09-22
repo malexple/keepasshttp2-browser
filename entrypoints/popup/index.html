@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>KeePassHttp2</title>
+    <style>
+        body {
+          font-family: sans-serif;
+          width: 320px;
+          padding: 8px;
+        }
+        .entry {
+          padding: 6px;
+          border-bottom: 1px solid #ddd;
+          cursor: pointer;
+        }
+        .entry:hover {
+          background: #f0f0f0;
+        }
+        .muted {
+          color: #888;
+          font-size: 12px;
+        }
+        #status {
+          margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+<div id="status">Loading...</div>
+<div id="entries"></div>
+<script type="module" src="./main.ts"></script>
+</body>
+</html>
